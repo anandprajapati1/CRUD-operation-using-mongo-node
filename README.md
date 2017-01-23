@@ -35,7 +35,7 @@ This will start node server running on port 3000.
 There are various tools to test restful services. Some popular ones are - **Postman, Advanced REST client(for chrome)** etc.
 OR
 To test whether server is working fine, just hit any GET type service in your browser. *Note - You can find relative service paths in app.js file*
-Eg - http://localhost:3000/getHeroes
+`Eg - http://localhost:3000/getHeroes`
 initially you don't have any record, you'll get **No records found** message
 
 To try inserting new record, use following sample data.
