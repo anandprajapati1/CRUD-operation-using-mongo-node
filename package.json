@@ -1,0 +1,18 @@
+{
+  "name": "CRUD-operation-using-mongo-node",
+  "version": "1.0.0",
+  "description": "First mongo db application to create REST ful services with node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "\"node app.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AKP",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.21"
+  }
+}
