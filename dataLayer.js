@@ -16,8 +16,8 @@ exports.getHeroes = function (req, res) {
     // Find some Heroes
     collection.find().toArray(function (err, items) {
       if (!items || !items.length) {
-        console.log('No records Found')
-        customCallback('No records Found', res)
+        console.log('No records found')
+        customCallback('No records found', res)
         return
       }
       //   assert(err == null)
