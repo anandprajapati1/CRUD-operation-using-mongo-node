@@ -44,8 +44,10 @@ To try inserting new record, use following sample data.
 ```
 Since **insertHeroes** service is currently working as bulk insertion, you have to send array of data.
 
-#### Consuming services in Web Application
+## Consuming services in Web Application
 You can find a client side application developed using Angular 2 [here](https://github.com/anandprajapati1/TourOfHeroesWithMongoDB).
 This application is originally based on popular **Tour of Heroes** example. You can use that for better understanding of integrating your service to client side app.
+
+
 
 Thanks!
