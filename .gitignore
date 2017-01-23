@@ -1,6 +1,6 @@
 node_modules
-# mongodb/data/*
-# mongodb/log/*
+mongodb/data/*
+mongodb/log/*
 
 # editor specific debigging files
 .vscode
