@@ -19,13 +19,13 @@ First of all, open mongodb/mongo.conf and set you local IP address against which
 For more on mongo configuration option, visit [Mongodb docs](https://docs.mongodb.com/manual/reference/configuration-options/#configuration-file)
 Now run following command in command prompt/terminal(in root folder)
 ```
-mongod --config=data/mongo.conf
+mongod --config=mongodb/mongo.conf
 ```
 This will start mongo database server and it keeps running until you manually stops it. 
 
 
 ### Start web server
-Run following command in command prompt/terminal(in root folder)
+Now open another command prompt/terminal(in root folder) and run following command -
 ```
 npm start
 ```
@@ -36,7 +36,7 @@ There are various tools to test restful services. Some popular ones are - **Post
 OR
 To test whether server is working fine, just hit any GET type service in your browser. *Note - You can find relative service paths in app.js file*
 `Eg - http://localhost:3000/getHeroes`
-initially you don't have any record, you'll get **No records found** message
+Initially you don't have any record, you'll get **No records found** message
 
 To try inserting new record, use following sample data.
 ```
@@ -45,7 +45,7 @@ To try inserting new record, use following sample data.
 Since **insertHeroes** service is currently working as bulk insertion, you have to send array of data.
 
 ## Consuming services in Web Application
-You can find a client side application developed using Angular 2 [here](https://github.com/anandprajapati1/TourOfHeroesWithMongoDB).
+You can find a client side application developed using Angular 2 **[here](https://github.com/anandprajapati1/TourOfHeroesWithMongoDB)**.
 This application is originally based on popular **Tour of Heroes** example. You can use that for better understanding of integrating your service to client side app.
 
 
