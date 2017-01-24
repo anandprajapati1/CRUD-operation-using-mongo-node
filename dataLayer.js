@@ -15,13 +15,11 @@ exports.getHeroes = function (req, res) {
     var collection = db.collection('Heroes')
     // Find some Heroes
     collection.find().toArray(function (err, items) {
-      if (!items || !items.length) {
+      if (!items || !items.length)
         console.log('No records found')
-        customCallback('No records found', res)
-        return
-      }
+      else
+        console.log('Found the ' + items.length + ' records')
       //   assert(err == null)
-      console.log('Found the ' + items.length + ' records')
       customCallback(items, res)
     })
     db.close()
