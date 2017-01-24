@@ -36,7 +36,7 @@ There are various tools to test restful services. Some popular ones are - **Post
 OR
 To test whether server is working fine, just hit any GET type service in your browser. *Note - You can find relative service paths in app.js file*
 `Eg - http://localhost:3000/getHeroes`
-Initially you don't have any record, you'll get **No records found** message
+Initially you don't have any record, you'll get an empty array in response. You can check it in network panel of browser.
 
 To try inserting new record, use following sample data.
 ```
