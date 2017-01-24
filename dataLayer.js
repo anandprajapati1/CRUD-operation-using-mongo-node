@@ -2,7 +2,7 @@ var MongoClient = require('mongodb').MongoClient
 var ObjectId = require('mongodb').ObjectID
 
 // Connection URL
-var url = 'mongodb://10.203.62.34:27170/Angular2Start'
+var url = 'mongodb://localhost:27170/Angular2Start'
 
 exports.getHeroes = function (req, res) {
   // Use connect method to connect to the server
